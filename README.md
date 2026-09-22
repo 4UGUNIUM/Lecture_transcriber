@@ -1,5 +1,7 @@
 # LectureTranscriber
 
+[**⬇️ Скачать LectureTranscriber**](https://github.com/4UGUNIUM/Lecture_transcriber/releases/latest/download/LectureTranscriber-Windows-x64.zip)
+
 Небольшая portable-программа для Windows 10/11: выбираете запись лекции, получаете обычный текст (`TXT`) и субтитры с таймкодами (`SRT`). Распознавание выполняется локально через [whisper.cpp](https://github.com/ggml-org/whisper.cpp) с Vulkan GPU; аудиозапись не отправляется в облако. Версия 1.3.1 обрабатывает всю лекцию одним проходом без предварительного VAD-разрезания и без повторной замены уже распознанных интервалов.
 
 ## Быстрый запуск готовой сборки
